@@ -1,9 +1,10 @@
 @import "tailwindcss";
+@plugin "tailwind-scrollbar";
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  @apply bg-zinc-500 text-zinc-50;
-}
+  @apply bg-zinc-800 text-zinc-50;
+} 
