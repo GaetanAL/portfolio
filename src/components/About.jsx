@@ -28,7 +28,7 @@ const About = () => {
           </p>
 
           <div className="flex flex-wrap items-center gap-4 md:gap-7">
-            {
+            {/* {
               aboutItems.map(({ label, number }, key) => (
                 <div key={key}>
                   <div className="flex items-center md:mb-2">
@@ -40,7 +40,7 @@ const About = () => {
                 </div>
 
               ))
-            }
+            } */}
 
             <img
               src="/images/logo.png"
