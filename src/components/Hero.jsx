@@ -10,25 +10,25 @@ import { useState } from "react";
  */
 import { ButtonPrimary, ButtonOutline } from './Button';
 
-const Hero = () => { 
+const Hero = () => {
     const [lookingForWork, setLookingForWork] = useState(true);
 
     return (
         <section
-        id='home' 
-        className="pt-28 lg:pt-36"
+            id='home'
+            className="pt-28 lg:pt-36"
         >
             <div className="container items-center lg:grid lg:grid-cols-2 lg:gap-10">
 
                 <div>
                     <div className="flex items-center gap-3">
-                        <figure className="img-box w-9 h-9 rounded-lg "> 
-                            <img 
-                            src="/images/avatar.png" 
-                            width={40}
-                            height={40}
-                            alt="Portrait" 
-                            className='img-cover'
+                        <figure className="img-box w-9 h-9 rounded-lg ">
+                            <img
+                                src="/images/avatar.png"
+                                width={40}
+                                height={40}
+                                alt="Portrait"
+                                className='img-cover'
                             />
                         </figure>
 
@@ -46,15 +46,18 @@ const Hero = () => {
                     </h2>
 
                     <div className="flex items-center gap-3">
-                        <ButtonPrimary 
-                          label="Télécharger CV"
-                          icon="download"
+                        <ButtonPrimary
+                            href="CV.pdf"
+                            label="Télécharger CV"
+                            icon="download"
+                            download="CV"
+                            target="_blank"
                         />
 
-                        <ButtonOutline 
-                          href="#about"
-                          label="Défiler ver le bas"
-                          icon="arrow_downward"
+                        <ButtonOutline
+                            href="#about"
+                            label="Défiler ver le bas"
+                            icon="arrow_downward"
                         />
                     </div>
 
@@ -62,12 +65,12 @@ const Hero = () => {
 
                 <div className="hidden lg:block">
                     <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
-                        <img 
-                        src="/images/avatar.png" 
-                        width={656}
-                        height={800}
-                        alt="Gaetan Lohier" 
-                        className='w-full'
+                        <img
+                            src="/images/avatar.png"
+                            width={656}
+                            height={800}
+                            alt="Gaetan Lohier"
+                            className='w-full'
                         />
                     </figure>
                 </div>
