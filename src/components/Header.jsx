@@ -20,10 +20,10 @@ const Header = () => {
           <a href="/" className="logo">
             <img
               src="/images/logo.svg"
-              width={60}
-              height={60}
+              width={55}
+              height={40}
               alt="Logo GL"
-              className="bg-white p-1.5 mt-4 box-content rounded-[14px]"
+              className="bg-white p-1 box-content rounded-xl"
             />
           </a>
         </h1>

@@ -47,7 +47,7 @@ const About = () => {
               alt="Logo"
               width={30}
               height={30}
-              className=" ml-auto md:w-[35px] md:h-[25px] " />
+              className=" ml-auto scale-150  " />
           </div>
         </div>
 
