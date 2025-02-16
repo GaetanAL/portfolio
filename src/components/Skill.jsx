@@ -6,22 +6,22 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
   {
-    imgSrc: '/images/css3.svg',
+    imgSrc: 'images/css3.svg',
     label: 'CSS',
     desc: 'User Interface'
   },
   {
-    imgSrc: '/images/nodejs.svg',
+    imgSrc: 'images/nodejs.svg',
     label: 'NodeJS',
     desc: 'Web Server'
   },
   {
-    imgSrc: '/images/mongodb.svg',
+    imgSrc: 'images/mongodb.svg',
     label: 'MongoDB',
     desc: 'Database'
   },
   {
-    imgSrc: '/images/tailwindcss.svg',
+    imgSrc: 'images/tailwindcss.svg',
     label: 'TailwindCSS',
     desc: 'User Interface'
   },
