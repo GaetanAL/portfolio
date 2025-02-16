@@ -23,7 +23,7 @@ const Header = () => {
               width={55}
               height={40}
               alt="Logo GL"
-              className="bg-white p-1 box-content rounded-xl"
+              className="p-1 box-content rounded-xl"
             />
           </a>
         </h1>
