@@ -14,6 +14,9 @@ export default {
       }
     },
   },
-  plugins: [tailwindScrollbar],
+  plugins: [
+    tailwindScrollbar,
+    require("@eioluseyi/tailwind-fade"),
+  ],
 }
 

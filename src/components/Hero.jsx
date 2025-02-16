@@ -63,14 +63,14 @@ const Hero = () => {
 
                 </div>
 
-                <div className="hidden lg:block">
-                    <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
+                <div className="hidden lg:block ">
+                    <figure className="w-full max-w-[560px] rounded-[30px] overflow-hidden ml-auto fade-t-6">
                         <img
-                            src="images/avatar.png"
+                            src="images/code.svg"
                             width={656}
                             height={800}
                             alt="Gaetan Lohier"
-                            className='w-full'
+                            className='w-full fade-l-10'
                         />
                     </figure>
                 </div>
