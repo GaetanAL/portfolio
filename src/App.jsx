@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Skill from "./components/Skill";
 import Experience from "./components/Experience";
+import Contact from "./components/Contact";
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
             <About />
             <Skill />
             <Experience />
+            <Contact />
         </main>
     </>
   )
