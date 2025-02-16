@@ -9,8 +9,8 @@ const works = [
   {
     imgSrc: '/images/project-1.jpg',
     title: 'Site web de réseau social Full Stack',
-    tags: ['API', 'MVC', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/'
+    tags: ['API', 'Web', 'Database'],
+    projectLink: 'https://github.com/Projet-Integration-Team-7/Projet-Academix'
   },
 ];
 

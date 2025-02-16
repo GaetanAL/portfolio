@@ -10,11 +10,11 @@ const sitemap = [
     href: '#home'
   },
   {
-    label: 'A Propos',
+    label: 'À Propos',
     href: '#about'
   },
   {
-    label: 'Experience',
+    label: 'Expérience',
     href: '#experience'
   },
   {
