@@ -7,7 +7,7 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
-    imgSrc: '/project-1.jpg',
+    imgSrc: '/images/project-1.jpg',
     title: 'Site web de réseau social Full Stack',
     tags: ['API', 'Web', 'Database'],
     projectLink: 'https://github.com/Projet-Integration-Team-7/Projet-Academix'
